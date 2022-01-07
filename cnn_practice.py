@@ -8,8 +8,9 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 # --------------------------------Preparing data--------------------------------
-mndata = MNIST(r'xxxxxxxx/Mnist/mnist', return_type='numpy', gz=True)
-#xxxxxxxx is your mnist file directory
+mndata = MNIST(r'xxxxxxxx', return_type='numpy', gz=True)
+#xxxxxxxx is your mnist data file directory
+#if your data already be decompressed, gz=Flase, if not, gz=True
 
 train_images, train_labels = mndata.load_training()
 test_images, test_labels = mndata.load_testing()
