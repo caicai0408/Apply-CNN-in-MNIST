@@ -3,9 +3,13 @@ This is a simple example of using Keras_CNN to deal with MNIST(handwritten digit
 
 ## Requires: 
 [MNIST Data](http://yann.lecun.com/exdb/mnist/)
+
 Python 3
+
 numpy
+
 tensorflow
+
 mnist
          
 ## To use the code:
