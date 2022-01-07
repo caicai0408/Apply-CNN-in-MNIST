@@ -11,7 +11,7 @@ This is a simple example of using Keras_CNN to deal with MNIST(handwritten digit
 ## To use the code:
 
 1. Download MNIST Data(if you use decompress data, please change the parameter into **gz = Flase** in code)
-2. Recheck your data file name, we need these file name corresponding to:*t10k-images-idx3-ubyte*,**t10k-labels-idx1-ubyte**,**train-images-idx3-ubyte**,**train-labels-idx1-ubyte**
+2. Recheck your data file name, we need these file name corresponding to:**t10k-images-idx3-ubyte**,**t10k-labels-idx1-ubyte**,**train-images-idx3-ubyte**,**train-labels-idx1-ubyte**
 
 ## Result:
 
